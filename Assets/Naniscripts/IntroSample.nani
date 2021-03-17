@@ -1,0 +1,28 @@
+@back VNBackground
+@printer TextMain
+@showPrinter
+
+sceneA line 1
+
+choose number.
+
+@input Number summary:"Choose a number";
+
+@stop
+@purgeRollback
+
+{Number}?
+
+@print "" waitInput:false
+@hidePrinter
+
+@wait 1
+
+;@loadNaniScene script:SceneB
+
+;end scene procedure
+@back visible:false
+@purgeRollback
+@loadGameScene scene:GameScene
+
+@stop

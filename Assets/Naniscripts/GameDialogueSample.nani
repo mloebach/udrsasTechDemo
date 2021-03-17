@@ -1,0 +1,12 @@
+#PressC
+
+<size=150%>hey! <size=100%><b>you pressed THIS button didn't you?</b>
+
+@return
+
+#PressT
+
+no way! you pressed this right button, right?
+<bounce>watch this! {Number}!!!!</bounce>
+
+@return

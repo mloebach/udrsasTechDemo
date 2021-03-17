@@ -1,0 +1,9 @@
+@back VNBackground
+@printer TextMain
+@showPrinter
+
+SceneB Line 1
+
+{Number}. I understand.
+
+@stop

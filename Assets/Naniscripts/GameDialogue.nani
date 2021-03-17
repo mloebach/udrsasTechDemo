@@ -1,0 +1,11 @@
+@printer TextWide
+@wait 0.3
+
+testing
+@gosub {CurrentScript}.{CurrentLabel}
+
+@purgeRollback
+@hideAll
+@wait 0.5
+@returnToGame
+@stop
